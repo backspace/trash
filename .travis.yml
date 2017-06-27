@@ -12,6 +12,7 @@ script:
 before_script:
 - ccache -s
 - ccache -z
+- ./rubies.sh
 after_script:
 - ccache -s
 notifications:
